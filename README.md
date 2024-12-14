@@ -1,6 +1,8 @@
 This is for the manuscript with Abraham Atsiwo titled 'Capital Asset Pricing Model with Size Factor and Normalizing by Volatility Index'. It is available on arXiv:2411.19444. All code is in Python. 
 
-size-break-points.xlsx shows size breakpoints at capitalizations 5%, 10%, ..., 90%, 95%, for each month from December 1925 to October 2024. size-break-points.py plots related capital distribution curves for December 1925, December 1930, ..., December 2020. 
+size-break-points.xlsx shows size breakpoints at capitalizations 5%, 10%, ..., 90%, 95%, for each month from December 1925 to October 2024. size-break-points.py plots related capital distribution curves for December 1925, 1945, 1965, 1985, 2005. 
+
+data.xlsx shows returns for the benchmark, VIX, and short-term rates. Analysis for equity premia and their normalized versions: plotting quantile-quantile plots versus the normal distribution, and the empirical autocorrelation function for original and absolute values of data is given in equity-premia.py.
 
 gaussian-simulation.py simulates whether the mean of the logarithm of normal random variable is negative. Namely, find the set of all m, s > 0 such that the normal random variable X with mean m and stdev s has negative expected value of the logarithm of |X|. This corresponds to Section 4. 
 
